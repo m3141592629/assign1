@@ -3,7 +3,8 @@
 PImage fighterImg;
 PImage enemyImg;
 Pimage treasureImg;
-PImage backgroundImg;
+PImage backgroundImg1;
+PImage backgroundImg2;
 int x1;
 int x2;
 int x3;
@@ -17,12 +18,15 @@ void setup () {
   enemyImg = loadImage("img/enemy.png");
   treasureImg = loadImage("img/treasure.png");
   
-  backgroundImg =  loadImage("img/bg1.png") ;  // your code
+  backgroundImg1 =  loadImage("img/bg1.png") ;
+  backgroundImg2 =  loadImage("img/bg2.png") ; // your code
+  
 }
 
 void draw() {
   // your code
-  image(backgroundImg,0,0);
+  image(backgroundImg1,0,0);
+  image(backgroundImg2,600,600);
   image(fighterImg,x1,200);
   image(enemyImg,x2,100);
   image(treasureImg,x3,0);
