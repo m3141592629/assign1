@@ -25,7 +25,7 @@ void draw() {
   image(backgroundImg,0,0);
   image(fighterImg,x1,200);
   image(enemyImg,x2,100);
-  image(treasureImg,x3,0);
+  image(treasureImg,x3,-100);
   
   x1 += 1;
   x2 += 4;
