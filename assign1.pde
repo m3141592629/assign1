@@ -9,7 +9,7 @@ int x2;
 void setup () {
   size(640,480) ;  // must use this size.
   x1 = 0;
-  x2 = 200;
+  x2 = 2;
   fighterImg = loadImage("img/fighter.png");
   enemyImg = loadImage("img/enemy.png");
   backgroundImg =  loadImage("img/bg1.png") ;  // your code
@@ -22,5 +22,5 @@ void draw() {
   image(enemyImg,x2,200);
   
   x1 += 2;
-  x2 -= 200;
+  x2 += 4;
 }
