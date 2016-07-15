@@ -34,3 +34,8 @@ void draw() {
   image(hpImg,0,0);
   x2 += 4;
 }
+
+if (x2 >=600){ 
+ return x2=0;
+}
+
