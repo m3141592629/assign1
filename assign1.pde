@@ -38,8 +38,8 @@ void draw() {
 }
 
 if (x2 >=600){ 
-  x4=x2;
+  x2=0;
 }
-return x4
-}
+return x2
+
 
