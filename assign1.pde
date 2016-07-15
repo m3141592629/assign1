@@ -12,7 +12,7 @@ int x3;
 
 void setup () {
   size(640,480) ;  // must use this size.
-  x1 = 600;
+  x1 = 550;
   x2 = 2;
   x3 = 250;
   fighterImg = loadImage("img/fighter.png");
