@@ -13,7 +13,7 @@ void setup () {
 
 void draw() {
   // your code
-  image(backgroundImg,0,0));
+  image(backgroundImg,0,0);
   image(fighterImg,x,200);
   x += 2;
 }
