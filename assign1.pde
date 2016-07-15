@@ -30,9 +30,8 @@ void draw() {
   image(backgroundImg2,0,600);
   image(fighterImg,x1,250);
   image(enemyImg,x2,100);
-  image(treasureImg,x3,0);
+  image(treasureImg,x3,400);
   image(hpImg,0,0);
   x1 += 1;
   x2 += 4;
-  x3 += 1;
 }
