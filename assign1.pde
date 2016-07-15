@@ -8,8 +8,9 @@ int x2;
 
 void setup () {
   size(640,480) ;  // must use this size.
-  x1 = 0;
-  x2 = 2;
+  x1 = 200;
+  x2 = 0;
+  x3 = 100;
   fighterImg = loadImage("img/fighter.png");
   enemyImg = loadImage("img/enemy.png");
   backgroundImg =  loadImage("img/bg1.png") ;  // your code
@@ -19,8 +20,9 @@ void draw() {
   // your code
   image(backgroundImg,0,0);
   image(fighterImg,x1,200);
-  image(enemyImg,x2,200);
+  image(enemyImg,x2,300);
+  image(treasure,x3,100);
   
-  x1 += 2;
+  x1 += 1;
   x2 += 4;
 }
