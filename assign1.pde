@@ -27,9 +27,9 @@ void setup () {
 void draw() {
   // your code
   image(backgroundImg1,0,0);
-  image(backgroundImg2,600,600);
-  image(fighterImg,x1,200);
-  image(enemyImg,x2,100);
+  image(backgroundImg2,0,600);
+  image(fighterImg,x1,150);
+  image(enemyImg,x2,300);
   image(treasureImg,x3,0);
   image(hpImg,0,0);
   x1 += 1;
