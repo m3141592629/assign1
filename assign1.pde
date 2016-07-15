@@ -14,7 +14,7 @@ void setup () {
   size(640,480) ;  // must use this size.
   x1 = 400;
   x2 = 2;
-  x3 = 200;
+  x3 = 250;
   fighterImg = loadImage("img/fighter.png");
   enemyImg = loadImage("img/enemy.png");
   treasureImg = loadImage("img/treasure.png");
