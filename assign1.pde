@@ -40,6 +40,6 @@ void draw() {
 if (x2 >=600){ 
   x2 = 0;
 }
-return x2
+
 
 
