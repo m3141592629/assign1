@@ -3,13 +3,13 @@
 PImage fighterImg;
 PImage enemyImg;
 PImage backgroundImg;
-int x;
-int y;
+int x1;
+int x2;
 
 void setup () {
   size(640,480) ;  // must use this size.
-  x = 0;
-  y = 200;
+  x1 = 0;
+  x2 = 200;
   fighterImg = loadImage("img/fighter.png");
   enemyImg = loadImage("img/enemy.png");
   backgroundImg =  loadImage("img/bg1.png") ;  // your code
@@ -18,9 +18,9 @@ void setup () {
 void draw() {
   // your code
   image(backgroundImg,0,0);
-  image(fighterImg,x,200);
-  image(enemyImg,y,200);
+  image(fighterImg,x1,200);
+  image(enemyImg,x2,200);
   
-  x += 2;
-  y -= 200;
+  x1 += 2;
+  x2 -= 200;
 }
