@@ -9,12 +9,14 @@ PImage backgroundImg2;
 int x1;
 int x2;
 int x3;
+int x4;
 
 void setup () {
   size(640,480) ;  // must use this size.
   x1 = 550;
   x2 = 2;
   x3 = 250;
+  x4 = 0;
   fighterImg = loadImage("img/fighter.png");
   enemyImg = loadImage("img/enemy.png");
   treasureImg = loadImage("img/treasure.png");
@@ -36,6 +38,7 @@ void draw() {
 }
 
 if (x2 >=600){ 
- return x2=0;
+  x4=x2;
 }
+return x4
 
