@@ -32,6 +32,5 @@ void draw() {
   image(enemyImg,x2,100);
   image(treasureImg,x3,400);
   image(hpImg,0,0);
-  x1 += 1;
   x2 += 4;
 }
